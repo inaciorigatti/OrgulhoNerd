@@ -1,0 +1,143 @@
+*{
+  padding: 0px;
+  margin: 0px; 
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #F5F5F5;
+  width: 97vw;
+}
+
+  main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #F5F5F5;
+    width: 75%;
+
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  p {
+    color: #777;
+    line-height: 1.25;
+    font-size: 18;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 1 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  li {
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: start;
+    margin: 1 auto;
+    grid-row: auto;
+    display:table;
+    flex: 1;
+    justify-content:space-around;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  h6 {
+    color: #999;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #lista1 {
+    flex: 1;
+    display: grid;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: start;
+    margin: 1 auto;
+    grid-row: auto;
+    flex: 1;
+  }
+
+  #lista2 {
+    flex: 1;
+    display: grid;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: start;
+    margin: 1 auto;
+    grid-row: auto;
+
+    flex: 1;
+  }
+
+  #lista3 {
+    flex: 1;
+    display: grid;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 1 auto;
+    grid-row: auto;
+    flex: 1;
+  }
+
+  .botao {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    justify-content: center;
+  }
+  
+  a {
+    color: #005503;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
